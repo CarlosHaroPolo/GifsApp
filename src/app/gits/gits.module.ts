@@ -5,6 +5,7 @@ import { HomePageComponent } from './pages/home/home-page.component';
 import { ShearchBoxComponent } from './components/shearch-box/shearch-box.component';
 import { CartListComponent } from './components/cart-list/cart-list.component';
 import { SharedModule } from '../shared/shared.module';
+import { CardComponent } from './components/card/card.component';
 
 
 
@@ -13,11 +14,12 @@ import { SharedModule } from '../shared/shared.module';
     HomePageComponent,
     ShearchBoxComponent,
     CartListComponent,
+    CardComponent,
 
   ],
   imports: [
     CommonModule,
-    SharedModule
+    SharedModule,
   ],
   exports:[
     HomePageComponent
